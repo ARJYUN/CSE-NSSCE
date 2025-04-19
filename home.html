@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NSSCE</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .header{
+            height: 40%;
+            width: 100vw;
+        }
+        .header img{
+            margin-left: 7%;
+        }
+        .cimage{
+            background-image: url(./assets/5.png) ;
+            width: 100vw;
+            height: 73vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .cimage p{
+            color: white;
+            text-align: center;
+            font-size: 2.5rem;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;        
+        }
+        .navbar{
+            display: flex;
+            justify-content: space-between;            padding-top: 10px;
+            padding-bottom: 7px;
+            background-color: black;
+        }
+        .navbar a{
+            font-size: 18px;
+            color: white;
+            text-decoration: none;
+            border-bottom: 2px solid transparent ;
+            font-weight: 500;
+            margin-left: 25px;
+            margin-right: 25px;
+            transition: .5s;
+        }
+        .navbar a:hover {
+            border-color: white;
+        }
+        
+        .overview{
+            height: 100vh;
+            width: 100vw;
+        }
+        .overview{
+            background-color: white;
+        }
+        .scroll{
+            display: flex;
+            cursor: pointer;
+        }
+        .mar{
+            width: 90%;
+            height: 40px;
+            position: absolute;
+            right: 0;
+            background-color: black;
+        }
+        marquee{
+            color: white;
+            margin-top: 10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .ant{
+            width: 10%;
+            height: 40px;
+            background-color: rgb(192, 144, 81);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="header">
+        <img src="./assets/header.png">
+    </div>
+    <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#"> Objectives</a>
+        <a href="#"> Faculties</a>
+        <a href="#">Advisory Committe</a>
+        <a href="#">News & Events </a>
+        <a href="#">Achievements & Activities</a>
+        <a href="#">Branch Association</a>
+        <a href="#">Faculty Login</a>
+        <a href="#">Student Login</a>
+    </nav>
+    <div class="cimage">
+       <p>NSS COLLEGE OF ENGINEERING<BR>
+        DEPARTMENT OF COMPUTER SCIENCE & ENGINEERING</p> 
+    </div>
+    <div class="scroll">
+    <div class="ant">
+        Announcements 📢
+    </div>
+    <div class="mar">
+        <marquee behaviour="scroll" direction="left">⟡ The Annual General Body meeting, for the academic year 2023-24 of the PTA will be held at 10 am on Sunday, 09-03-2025. Your presence may kindly be informed prior for the necessary arrangements. Contact: 097784 42978 &nbsp;&nbsp;⟡ B.Tech Spot Admission 21.10.2014 Ranklist Published &nbsp; &nbsp;⟡ B.Tech Spot Admission on 21.10.2024-Guidelines Published  &nbsp; &nbsp;⟡ M.Tech Spot admission on 10-10-2024  &nbsp; &nbsp;⟡ B.Tech Spot Admission 2024 Rank List Published &nbsp; &nbsp;   
+        </marquee>
+    </div>
+    </div>
+    <div class="overview"></div>
+</body>
+</html>
