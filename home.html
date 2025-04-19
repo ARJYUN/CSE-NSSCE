@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NSSCE</title>
+    <title>NSSCE CSE</title>
     <style>
         body{
             margin: 0;
@@ -13,12 +13,12 @@
             width: 100vw;
         }
         .header img{
-            margin-left: 7%;
+            margin-left: 8%;
         }
         .cimage{
             background-image: url(./assets/5.png) ;
             width: 100vw;
-            height: 73vh;
+            height: 74vh;
             background-repeat: no-repeat;
             background-size: cover;
             display: flex;
@@ -28,7 +28,7 @@
         }
 
         .cimage p{
-            color: white;
+            color: rgb(255, 255, 255);
             text-align: center;
             font-size: 2.5rem;
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;        
@@ -53,38 +53,96 @@
             border-color: white;
         }
         
-        .overview{
-            height: 100vh;
-            width: 100vw;
-        }
-        .overview{
-            background-color: white;
-        }
         .scroll{
             display: flex;
             cursor: pointer;
         }
         .mar{
             width: 90%;
-            height: 40px;
+            height: 30px;
             position: absolute;
             right: 0;
             background-color: black;
         }
         marquee{
             color: white;
-            margin-top: 10px;
+            margin-top: 5px;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
         .ant{
             width: 10%;
-            height: 40px;
+            height: 30px;
             background-color: rgb(192, 144, 81);
             display: flex;
             align-items: center;
             justify-content: center;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
+    
+        .title{
+            width: 90vw;
+            height: 10vh;
+            background-color: rgb(19, 4, 58);
+            margin-top: 3vh;
+            display: flex;
+            align-items: center;
+            margin-left: 5vw;
+        }
+        .title p{
+            color: white;
+            font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 30px;
+            margin-left: 40px;
+            font-weight: bold;
+        }
+
+        .ff{
+            display: flex;
+
+        }
+        .ocontent{
+            
+            background-color: rgb(234, 234, 236);
+            width: 70vw;
+            margin-left: 5vw;
+            margin-top: 3vh;
+            margin-bottom: 10px;
+
+            
+        }
+        .ot{
+            margin-left: 10px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 30px;
+            padding-left: 20px;
+            font-weight: bold;
+
+        }
+
+        .cc{
+            padding-left: 40px;
+            padding-right: 40px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 17px;
+        }
+        ul{
+            padding-left: 40px;
+            padding-right: 40px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 17px;
+        }
+        .email{
+            margin-left: 20px;
+            background-color: rgb(234, 234, 236);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 17px;
+        }
+        .email p{
+            font-weight: bold;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+
     </style>
 </head>
 <body>
@@ -93,15 +151,15 @@
         <img src="./assets/header.png">
     </div>
     <nav class="navbar">
-        <a href="#">Home</a>
-        <a href="#"> Objectives</a>
-        <a href="#"> Faculties</a>
-        <a href="#">Advisory Committe</a>
-        <a href="#">News & Events </a>
-        <a href="#">Achievements & Activities</a>
-        <a href="#">Branch Association</a>
-        <a href="#">Faculty Login</a>
-        <a href="#">Student Login</a>
+        <a href="./home.html">Home</a>
+        <a href="./objectives.html"> Objectives</a>
+        <a href="./faculties.html"> Faculties</a>
+        <a href="./committe.html">Advisory Committe</a>
+        <a href="./ne.html">News & Events </a>
+        <a href="./achievements.html">Achievements & Activities</a>
+        <a href="./branch.html">Branch Association</a>
+        <a href="./faculty.html">Faculty Login</a>
+        <a href="./student.html">Student Login</a>
     </nav>
     <div class="cimage">
        <p>NSS COLLEGE OF ENGINEERING<BR>
@@ -116,6 +174,40 @@
         </marquee>
     </div>
     </div>
-    <div class="overview"></div>
+    <div class="overview">
+        <div class="title">
+            <p>OVERVIEW</p>
+        </div>
+        <div class="ff">
+        <div class="ocontent">
+            <p class="ot">Department of Computer Science & Engineering</p>
+            <p class="cc">  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspThe department of computer science & engineering is the latest addition to the institution which in started the academic year 1999 - 2000. Identification of India as a potential source of computer professionals and keeping in mind the employment potential in this sector, the department aims at providing competent professionals to contribute its share to this technology boom. The department currently offers both B.Tech and M.Tech degree courses in computer science and engineering stream. The academic excellence is reflected in the high placement record, the number of students gaining admission for higher studies in prestigious institutions and the number of papers published per year. Faculty members and supporting staff with rich blend of academic, research and industrial experience are appointed in the department.
+            </p>
+            <p class="ot">Our Mission</p>
+            <p class="cc"> 
+                <ul>
+                    <li>To equip students with strong fundamentals concepts, analytical abilities, and problem-solving skills to adapt to the emerging needs.</li>
+                    <li>To inspire the students towards research, innovation, and entrepreneurship through active learning.</li>
+                    <li>To promote skills to develop socially relevant and economically feasible engineering solutions, upholding ethical values.</li>
+                </ul>
+                </p>
+            </p>
+            <p class="ot">Our Vision</p>
+            <p class="cc"> 
+                To be a pioneer in the field of Computer Science and Engineering by fostering technically competent and socially responsible professionals with moral values through determined learning and research.
+                </p>
+        </div>
+        <div class="hod">
+            <img src="./assets/nba.jpg" style="margin-left: 10px;margin-top: 10px;">
+            <p style="margin-left: 30px;font-size: 20px;font-family: fantasy;font-weight: bold;">Head of the Department</p>
+            <img src="./assets/hod.jpg" style="margin-left: 20px;">
+            <div class="email" style="text-align: center;">
+                <p> DR. VIJI RAJENDRAN V <br>
+                    <a href="mailto:csehod@nssce.ac.in" style="font-weight: lighter;text-decoration: none;"> csehod@nssce.ac.in </a>
+                </p>
+            </div>
+        </div>
+    </div>
+    </div>
 </body>
 </html>
