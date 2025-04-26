@@ -10,7 +10,7 @@ Welcome to the 🌐 website of the **Computer Science and Engineering Department
 - 📚 **Academic Programs** and curriculum structure
 - 🔬 **Research & Projects** highlights
 - 🗓️ **News & Events** section
-- 📍 **Contact Info** with maps and email support
+- 📍 **Contact Info** with email support
 
 ---
 
